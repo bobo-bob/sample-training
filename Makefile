@@ -5,5 +5,5 @@ submit:
 	    --localdir foobar/__main__.py surname=bob
 
 local:
-	# docker build -t gridsample .
+	docker build -t gridsample .
 	docker run --rm gridsample:latest python foobar/__main__.py surname=bob
