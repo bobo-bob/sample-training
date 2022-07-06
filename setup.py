@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="foobar",
+    name="foobar-baz",
     use_scm_version={"version_scheme": "python-simplified-semver"},
     setup_requires=[
         "setuptools_scm",
