@@ -1,0 +1,38 @@
+# Data folders
+outputs/
+logs/
+
+# Data
+*.jpg
+*.jpeg
+*.mp4
+*.avi
+*.pth
+*.json
+*.mkv
+*.zip
+*.txt
+*.png
+*.plan
+*.swp
+*.swo
+*.log
+*.ckpt
+*.gif
+*.pthk
+*.csv
+*.onnx
+*.npy
+*.onnx
+
+# Tools
+.git/
+.idea/
+**/__pycache__/
+.vscode/
+.mypy_cache/
+.DS_Store
+.python-version
+*.egg*
+
+!requirements.txt
