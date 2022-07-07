@@ -1,5 +1,6 @@
 submit:
 	grid run \
+	    --strategy none \
 	    --dockerfile Dockerfile \
 	    --instance_type g4dn.xlarge \
 	    --localdir foobar/__main__.py surname=bob
